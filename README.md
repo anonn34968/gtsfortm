@@ -48,3 +48,7 @@ Contitional rules:
 - endLoopStart
 - endCyclic
 ```
+
+Flowchart of how to apply rules:
+
+![Flowchart](./flowchart.png)
