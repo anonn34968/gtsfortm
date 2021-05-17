@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="endLoopStep">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n14">
+            <attr name="layout">
+                <string>173 222 28 72</string>
+            </attr>
+        </node>
+        <node id="n15">
+            <attr name="layout">
+                <string>36 250 17 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>144 356 48 36</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>45 361 17 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>79 146 25 24</string>
+            </attr>
+        </node>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>new:flag:loop_v</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n0">
+            <attr name="label">
+                <string>?</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n15">
+            <attr name="label">
+                <string>id</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n2">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>not:flag:loop_v</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>type:Tran</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>del:flag:loop_c</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n15">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n1">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n2">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:flag:loop_c</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>id</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:Tran</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>forallx:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

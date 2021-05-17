@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="histoCommit1-RollbackDone">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n19">
+            <attr name="layout">
+                <string>10 76 26 18</string>
+            </attr>
+        </node>
+        <node id="n17">
+            <attr name="layout">
+                <string>10 159 52 54</string>
+            </attr>
+        </node>
+        <node id="n20">
+            <attr name="layout">
+                <string>138 287 30 18</string>
+            </attr>
+        </node>
+        <node id="n18">
+            <attr name="layout">
+                <string>155 261 19 19</string>
+            </attr>
+        </node>
+        <node id="n24">
+            <attr name="layout">
+                <string>311 123 24 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>91 174 95 36</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>247 207 36 18</string>
+            </attr>
+        </node>
+        <node id="n13">
+            <attr name="layout">
+                <string>308 268 28 18</string>
+            </attr>
+        </node>
+        <node id="n36">
+            <attr name="layout">
+                <string>318 364 17 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>256 349 36 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>99 103 26 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>10 8 45 36</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>162 350 30 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>16 277 17 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>131 436 49 18</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>17 438 28 18</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>82 279 25 24</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>14 351 36 18</string>
+            </attr>
+        </node>
+        <edge from="n19" to="n19">
+            <attr name="label">
+                <string>type:TOp</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n17">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n17">
+            <attr name="label">
+                <string>type:Rollback</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n17">
+            <attr name="label">
+                <string>new:flag:last</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n17">
+            <attr name="label">
+                <string>not:flag:last</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n6">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>type:Read</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n0">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n18">
+            <attr name="label">
+                <string>string:"green"</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n24">
+            <attr name="label">
+                <string>type:SOS</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:T</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n24">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n6">
+            <attr name="label">
+                <string>id</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n20">
+            <attr name="label">
+                <string>new:op</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n7">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+            <attr name="layout">
+                <string>440 0 236 197 319 143 11</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>del:op</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n18">
+            <attr name="label">
+                <string>status</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>type:Cplog</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n13">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n20">
+            <attr name="label">
+                <string>del:location</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n4">
+            <attr name="label">
+                <string>del:location</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>type:item</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n36">
+            <attr name="label">
+                <string>id</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n24">
+            <attr name="label">
+                <string>snapshot</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n0">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n36">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>string:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:TOp</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:History</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>del:flag:lock</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:Read</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n11">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n9">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>type:AcTrans</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n10">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+            <attr name="layout">
+                <string>575 5 34 663 48 560 11</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>type:item</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n9">
+            <attr name="label">
+                <string>del:conflict</string>
+            </attr>
+        </edge>
+        <edge from="n11" to="n11">
+            <attr name="label">
+                <string>forallx:</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>string:</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n11">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
