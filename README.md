@@ -51,4 +51,4 @@ Contitional rules:
 
 Flowchart of how to apply rules:
 
-![Flowchart](./flowchart.png)
+![Flowchart](./flowchart1.png)
